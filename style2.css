@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 0 auto;
+    height: 0 auto;
+    background-color: blanchedalmond
+}
+
+
+.navbar {
+    width: auto;
+    height: 60px;
+    display: flex;
+   
+    margin-bottom: 20px;
+    padding-top: 1px;
+    
+    border: 5px solid aliceblue;
+    background-color: black;
+    color: aliceblue;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+    text-decoration: double;
+    text-indent: 10px;
+    
+}
+
+.nav-links {
+    display: inline-flex;
+    padding-left: 40px;
+    justify-content: center;
+    align-items: right;
+    color: yellow;
+    text-decoration: underline;
+    text-size-adjust: 18px;
+    word-spacing: 2px;
+}
+.nav-links a {
+    display: inline-flex;
+    padding-right: 30px;
+    padding-left: 30px;
+    justify-content: center;
+    align-items: right;
+
+}
+.nav-links a:hover {
+    background-color: black;
+    color: yellow;
+}
+.btn {
+
+    align-items: center;
+    justify-content: center;
+    border: 3px solid blueviolet;
+}
+button {
+    display: inline;
+    color: purple;
+    text-decoration: double;
+}
+
+
+
+
+.profile-card {
+    display: inline-block;
+    background-color: palevioletred;
+    color: blueviolet;
+    
+    align-content: center;
+  justify-content: space-around;
+    box-sizing: border-box;
+    margin: 20px;
+    border: black 5px solid;
+}
+span {
+    padding-top: 10px;
+    
+    text-align: left;
+    word-spacing: 2px;
+    display: inline-flex;
+    vertical-align: middle;
+}
+h1.header {
+    display: flex;
+    width: 0 auto;
+    height: 42px;
+    background-color: black;
+    color: blueviolet;
+    text-align: left;
+    padding:20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: black 2px solid;
+}
+}
+
+h1, h2, h3, p {
+    color: blueviolet;
+    text-align: center;
+    vertical-align: bottom;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    width: 0 auto;
+    overflow: hidden;
+    justify-content: center;
+}
+.edu-header {
+    background-color: black;
+    color: blueviolet;
+    text-align: left;
+    padding:20px;
+    border-bottom: black 2px solid;
+}
+.education {
+    display: flex;
+    width: 450px;
+    background-color: palevioletred;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: black solid 5px;
+    box-sizing: border-box;
+    text-align: left;
+
+    margin-left: 5px;
+}
+.main {
+    display: inline-block;
+    width: 50%;
+   align-content: center;
+    justify-content: space-around;
+    vertical-align: top;
+}
+li{
+    margin-top: 10px;
+    list-style:inside;
+    align-items: center;
+    justify-content: right;
+}
+
+
+.col-2 {
+    display: flex;
+    width: 35%;
+flex-direction: column;
+vertical-align: top;
+    flex-flow: wrap;
+    float: right;
+   
+    justify-content: space-between;
+    align-content: right;
+
+}
+.Requests {
+    display: flex;
+    border: 3px solid black;
+    justify-content: left;
+    flex-direction: column;
+    float: top;
+
+    border: black 5px solid;
+    margin-bottom: 20px;
+    padding-bottom: 1cpx;
+    
+    
+}
+
+.col-2 .header{
+    flex-direction: column;
+    background-color: black;
+    color: blueviolet;
+margin-bottom: 5px;    
+
+    box-sizing: border-box;
+    border: black 5px solid;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.connection{
+    height: 24px;
+    border-radius: 12px;
+    font-size: 2px;
+    display: inline-flex;
+    width: 100%;
+    vertical-align: top;
+    margin-left: 1rem;
+    float: right;
+    align-content: left;
+  
+    border: black 5px solid ;
+}
+.footer {
+    justify-content: center;
+}
+.start .end  {
+    
+margin: 0px 10px 2px 5px;
+    align-items: center;
+    font-size: 16px;
+
+}
+.user-line {
+    display: flex;
+word-wrap: normal;
+color: blueviolet;
+    background-color: palevioletred;
+    align-items: left;
+    justify-content: space-evenly;
+    margin: 1px;
+
+}
